@@ -13,7 +13,7 @@ public class ArrangingQueue {
     public boolean enqueue(int element) {
     	 boolean response=false;
 	        if(!isFull()){
-	            data[rear+1]=element;
+	            data[rear+1]=element; 
 	            rear++;
 	            response=true;
 	           // sorting(); 
